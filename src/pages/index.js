@@ -10,7 +10,10 @@ const IndexPage = () => {
       <StaticImage
         alt="Nick wearing a black, sleeveless shirt."
         src="../images/profile-pic-nick.png"
+        height={200}
+        width={200}
       />
+
     </Layout>
   )
 }
