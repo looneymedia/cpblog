@@ -19,3 +19,6 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+
+// Link about installing gatsby-plugin-mdx and dependencies - as well as popular remark plugins. Search "gatsby-remark-"
+// https://www.gatsbyjs.com/docs/tutorial/part-5/#task-install-and-configure-the-mdx-transformer-plugin-and-dependencies
