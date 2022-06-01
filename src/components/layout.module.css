@@ -1,7 +1,13 @@
 .container {
     margin: auto;
-    /* max-width: 500px; */
-    max-width: 800px;
+    /* As a general guideline, it’s a good idea to 
+    preoptimize your image files by resizing them 
+    to be no more than twice the maximum size they’ll 
+    be rendered at. For example, if your layout is 
+    600 pixels wide, then the highest resolution image 
+    you will need is 1200 pixels (to account for 2x pixel density).
+    960 x 2 = 1920 for 16:9 ratio */
+    max-width: 960px;
     font-family: sans-serif;
   }
   
