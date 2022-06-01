@@ -7,6 +7,7 @@ const BlogPost = ({ data }) => {
 
     const { title, author, datePublished } = data.mdx.frontmatter;
     const { body, timeToRead } = data.mdx;
+    console.log(data);
 
     return ( 
         <Layout pageTitle={title}>
